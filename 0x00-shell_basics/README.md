@@ -8,4 +8,5 @@
 	4- A script that display current directory contents, including hidden files (starting with .). Use the long format.
 	5- A script that display current directory contents.
 	6- A script that creates a directory named my_first_directory in the /tmp/ directory.
-
+	7- A script that move the file betty from /tmp/ to /tmp/my_first_directory.
+	
