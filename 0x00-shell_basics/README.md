@@ -1,7 +1,7 @@
 
 <h1 align="center">Determine each file script do!</h1>
 
-	0- A script that prints the absolute path name of the current working directory.
+	0- A script that prints the absolute path name of the current working directory. 
 	1- A script that display the contents list of your current directory.
 	2- A script that changes the working directory to the user’s home directory.
 	3- A script that display current directory contents in a long format.
@@ -12,4 +12,5 @@
 	8- A script that delete the file betty.
 	9- A script that delete the directory my_first_directory that is in the /tmp directory.
 	10- A script that changes the working directory to the previous one.
-			
+	11- A script that changes the working directory to the previous one.
+	
