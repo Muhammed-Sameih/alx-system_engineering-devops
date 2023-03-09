@@ -11,7 +11,7 @@
         8- A script that sets the permission to the file hello.
         9- A script that sets the mode of the file hello.
         10- A script that sets the mode of the file hello the same as olleh’s mode.
-        11- A script that 
+        11- A script that adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users.
         12- A script that 
         13- A script that 
         14- A script that 
