@@ -5,7 +5,8 @@
 
     1- A script that displays a confused smiley "(Ôo)'.
 
-    2- A script that 
+    2- A script that display the content of the /etc/passwd file.
+
     3- A script that 
     4- A script that 
     5- A script that 
