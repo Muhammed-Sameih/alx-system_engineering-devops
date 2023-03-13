@@ -46,7 +46,8 @@
 
     20- A script that removes all letters c and C from input.
 
-    21- A script that
+    21- A script that reverse its input.
+
     22- A script that
     100- A script that 
     101- A script that 
