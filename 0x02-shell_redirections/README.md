@@ -15,7 +15,8 @@
 
     6- A script that displays the third line of the file iacta.
 	
-    7- A script that 
+    7- A script that  that creates a file named exactly \*\\'"Best School"\'\\*$\?\*\*\*\*\*:) containing the text Best School ending by a new line.
+ 
     8- A script that 
     9- A script that
     10- A script that 
