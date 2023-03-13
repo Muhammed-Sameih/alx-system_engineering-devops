@@ -48,7 +48,8 @@
 
     21- A script that reverse its input.
 
-    22- A script that
+    22- A script that displays all users and their home directories, sorted by users.
+
     100- A script that 
     101- A script that 
     102- A script that 
