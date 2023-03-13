@@ -40,7 +40,8 @@
 
     17- A script that display all the lines in the file /etc/passwd that do not contain the pattern “bin”.
 
-    18- A script that 
+    18- A script that display all lines of the file /etc/ssh/sshd_config starting with a letter.
+
     19- A script that
     20- A script that
     21- A script that
