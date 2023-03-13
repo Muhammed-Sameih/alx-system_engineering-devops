@@ -42,7 +42,8 @@
 
     18- A script that display all lines of the file /etc/ssh/sshd_config starting with a letter.
 
-    19- A script that
+    19- A script that replace all characters A and c from input to Z and e respectively.
+
     20- A script that
     21- A script that
     22- A script that
