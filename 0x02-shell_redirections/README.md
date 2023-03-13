@@ -25,8 +25,18 @@
 
     11- A script that counts the number of directories and sub-directories in the current directory.
 
-    12- A script that 
+    12- A script that displays the 10 newest files in the current directory.
+ 
     13- A script that 
+    14- A script that
+    15- A script that 
+    16- A script that 
+    17- A script that 
+    18- A script that 
+    19- A script that
+    20- A script that
+    21- A script that
+    22- A script that
     100- A script that 
     101- A script that 
     102- A script that 
