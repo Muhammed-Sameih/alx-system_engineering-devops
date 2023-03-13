@@ -7,7 +7,8 @@
 
     2- A script that display the content of the /etc/passwd file.
 
-    3- A script that 
+    3- A script that display the content of /etc/passwd and /etc/hosts .
+
     4- A script that 
     5- A script that 
     6- A script that 
