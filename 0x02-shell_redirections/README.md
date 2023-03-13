@@ -9,7 +9,8 @@
 
     3- A script that display the content of /etc/passwd and /etc/hosts .
 
-    4- A script that 
+    4- A script that display the last 10 lines of /etc/passwd .
+
     5- A script that 
     6- A script that 
     7- A script that 
