@@ -32,7 +32,8 @@
 	-Output format: One line, one word.
 	-Words should be sorted.
 
-    14- A script that
+    14- A script that display lines containing the pattern “root” from the file /etc/passwd.
+
     15- A script that 
     16- A script that 
     17- A script that 
