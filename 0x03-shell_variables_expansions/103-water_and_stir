@@ -1,0 +1,2 @@
+sum=$(( $(printf '%d' "'$WATER") + $(printf '%d' "'$STIR") ))
+printf '%o\n' $sum
