@@ -16,7 +16,7 @@
 
 	6- A script that creates a new local variable.
 
-	7- A script that 
+	7- A script that creates a new global variable.
 
 	8- A script that 
 
