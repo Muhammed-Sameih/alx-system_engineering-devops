@@ -10,7 +10,7 @@
 
 	3- A script that counts the number of directories in the PATH.
 
-	4- A script that 
+	4- A script that lists environment variables.
 
 	5- A script that 
 
