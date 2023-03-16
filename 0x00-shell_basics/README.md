@@ -1,65 +1,3 @@
-
-<h1 align="center">A simple description of what each shell script file does!</h1>
-
-	0- A script that prints the absolute path name of the current working directory. 
-	
-	1- A script that display the contents list of your current directory.
-	
-	2- A script that changes the working directory to the user’s home directory.
-	
-	3- A script that display current directory contents in a long format.
-	
-	4- A script that display current directory contents, including hidden files (starting with .). Use the long format.
-	
-	5- A script that display current directory contents.
-	
-	6- A script that creates a directory named my_first_directory in the /tmp/ directory.
-	
-	7- A script that move the file betty from /tmp/ to /tmp/my_first_directory.
-	
-	8- A script that delete the file betty.
-	
-	9- A script that delete the directory my_first_directory that is in the /tmp directory.
-	
-	10- A script that changes the working directory to the previous one.
-	
-	11- A script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
-	
-	12- A script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
-	
-	13- A script that create a symbolic link to /bin/ls, named __ls__.	
-	
-	14- A script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
-	
-	100- A script that moves all files beginning with an uppercase letter to the directory /tmp/u.
-	
-	101- A script that deletes all files in the current working directory that end with the character ~.
-	
-	102- A script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
-	
-	103- A script that that lists all the files and directories of the current directory, separated by commas (,).
-	
-	school.mgc - A script that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## 0x00. - Shell, basics
 
 Introduction to Shell & basics for  linux administration and first set of assignments ALX
@@ -69,82 +7,114 @@ Introduction to Shell & basics for  linux administration and first set of assign
 
 [0-current_working_directory](./0-current_working_directory)
 ```
-Write a script that runs a C file through the preprocessor
-and save the result into another file.
+Write a script that prints the absolute path name of the current working directory.
 ```
-* The C file name will be saved in the variable $CFILE
-* The output should be saved in the file c
 
-[1-compiler](./1-compiler)
+[1-listit](./1-listit)
 ```
-Write a script that compiles a C file but does not link.
+Write a script that display the contents list of your current directory.
 ```
-* The C file name will be saved in the variable $CFILE
-* The output file should be named the same as the C file, but with the extension
-  .o instead of .c.
 
-[2-assembler](./2-assembler)
+[2-bring_me_home](./2-bring_me_home)
 ```
-Write a script that generates the assembly code of a C code and save it in
-an output file.
+Write a script that changes the working directory to the user’s home directory.
 ```
-* The C file name will be saved in the variable $CFILE
-* The output file should be named the same as the C file, but with the
-  extension .s instead of .c.
+* You are not allowed to use any shell variables
 
-[4-puts.c](./4-puts.c)
+[3-listfiles](./3-listfiles)
 ```
-Write a C program that prints exactly
-"Programming is like building a multilingual puzzle, followed by a new line.
+Write a script that display current directory contents in a long format.
 ```
-* Use the function puts
-* You are not allowed to use printf
-* Your program should end with the value 0
 
-[3-name](./3-name)
+[4-listmorefiles](./4-listmorefiles)
 ```
-Write a script that compiles a C file and creates an executable named cisfun.
+Write a script htat display current directory contents, including hidden files (starting with .). Use the long format.
 ```
-* The C file name will be saved in the variable $CFILE
 
-[5-printf.c](./5-printf.c)
+[5-listfilesdigitonly](./5-listfilesdigitonly)
 ```
-Write a C program that prints exactly with proper grammar, but the outcome is
-a piece of art,, followed by a new line.
+Write a script that display current directory contents.
 ```
-* Use the function printf
-* You are not allowed to use the function puts
-* Your program should return 0
-* Your program should compile without warning when using the -Wall gcc option
+* Long format
+* with user and group IDs displayed numerically
+* And hidden files (starting with .)
 
-[6-size.c](./6-size.c)
+[6-firstdirectory](./6-firstdirectory)
 ```
-Write a C program that prints the size of various types on the computer it is
-compiled and run on.
+Create a script that creates a directory named my_first_directory in the /tmp/ directory.
 ```
-* You should produce the exact same output as in the example
-* Warnings are allowed
-* Your program should return 0
-* You might have to install the package libc6-dev-i386 on your Linux (Vagrant)
-  to test the -m32 gcc option
 
-[100-intel](./100-intel)
+[7-movethatfile](./7-movethatfile)
 ```
-Write a script that generates the assembly code (Intel syntax) of a C code and
-save it in an output file.
+Create a script that move the file betty from /tmp/ to /tmp/my_first_directory.
 ```
-* The C file name will be saved in the variable $CFILE.
-* The output file should be named the same as the C file, but with the extension
-  .s instead of .c.
 
-[101-quote.c](./101-quote.c)
+[8-firstdelete](./8-firstdelete)
 ```
-Write a C program that prints exactly and that piece of art is useful"
-- Dora Korpar, 2015-10-19, followed by a new line, to the standard error.
+Create a script that delete the file betty.
 ```
-* You are not allowed to use any functions listed in the NAME section of the man (3) printf or man (3) puts
-* Your program should return 1
-* Your program should compile without any warnings when using the -Wall gcc option
+* The file betty is in /tmp/my_first_directory
 
+[9-firstdirdeletion](./9-firstdirdeletion)
+```
+Create a script that delete the directory my_first_directory that is in the /tmp directory.
+```
 
+[10-back](./10-back)
+```
+Write a script that changes the working directory to the previous one.
+```
 
+[11-lists](./11-lists)
+```
+Write a script that lists all files (even ones with names beginning with a period character, which are normally hidden) in the current directory and the parent of the working directory and the /boot directory (in this order), in long format.
+```
+
+[12-file_type](./12-file_type)
+```
+Write a script that prints the type of the file named iamafile. The file iamafile will be in the /tmp directory when we will run your script.
+```
+
+[13-symbolic_link](./13-symbolic_link)
+```
+Write a script that create a symbolic link to /bin/ls, named __ls__. The symbolic link should be created in the current working directory.
+```
+
+[14-copy_html](./14-copy_html)
+```
+Create a script that copies all the HTML files from the current working directory to the parent of the working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory.
+```
+* You can consider that all HTML files have the extension .html
+
+[100-lets_move](./100-lets_move)
+```
+Create a script that moves all files beginning with an uppercase letter to the directory /tmp/u.
+```
+* You can assume that the directory /tmp/u will exist when we will run your script
+
+[101-clean_emacs](./101-clean_emacs)
+```
+Create a script that deletes all files in the current working directory that end with the character ~.
+```
+
+[102-tree](./102-tree)
+```
+Create a script that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory.
+```
+* You are only allowed to use two spaces (and lines) in your script, not more.
+
+[103-commas](./103-commas)
+```
+Create a script that write a command that lists all the files and directories of the current directory, separated by commas (,).
+```
+* Directory names should end with a slash (/)
+* Files and directories starting with a dot (.) should be listed
+* The listing should be alpha ordered, except for the directories . and .. which should be listed at the very beginning
+* Only digits and letters are used to sort; Digits should come first
+* You can assume that all the files we will test with will have at least one letter or one digit
+* The listing should end with a new line
+
+[school.mgc](./school.mgc)
+```
+Create a magic file school.mgc that can be used with the command file to detect School data files. School data files always contain the string SCHOOL at offset 0.
+```
